@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+}
+header{
+    background-color: rgb(171, 4, 4);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar ul{
+   display: flex;
+   gap: 35px;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+.img{
+    height: 2rem;
+    width: 2rem;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.left, .right{
+    flex: 1;
+    padding: 50px;
+    position: relative;
+}
+.left{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h4{
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+.left .desc{
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+.left h1{
+font-size: 36px;
+color: #000;
+margin-bottom: 20px;
+}
+.left h1 span{
+    color: #b22222;
+}
+.left .price{
+    font-size: 24px;
+    color: #b22222;
+    margin-bottom: 20px;
+}
+.shop-btn{
+    padding: 12px 30px;
+    background: #b22222;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.shop-btn a{
+   text-decoration: none;
+   color: white;
+}
+.social-icons{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    gap: 15px;
+    color: #999;
+}
+.right{
+    background: #a32020;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.right .year{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0.6;
+}
+.shoe-img{
+    width: 400px;
+    transform: rotate(-15deg);
+    margin-bottom: 40px;
+}
+.comfort{
+    max-width: 300px;
+}
+.comfort h5{
+font-size: 18px;
+margin-bottom: 10px;
+}
+.comfort p{
+    font-size: 14px;
+    color: #f2f2f2;
+}
+.login{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #000;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #000;
+    text-align: center;
+    color: white;
+}
+.footer-section{
+    flex: 1;
+    padding: 0 15px;
+}
+.footer-section h3{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li{
+    margin: 8px 0;
+}
+.footer-section ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-section ul li a:hover{
+    text-decoration: underline;
+}
+@media(max-width: 768px){
+   header{
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   .container{
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 90%;
+   }
+   .left, .right{
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 1rem 0;
+   }
+   .nav-bar{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 0.3rem;
+   }
+   .right{
+    order: -1;
+    text-align: center;
+   }
+   .right img{
+    transform: rotate(0deg);
+    max-width: 80%;
+    margin: 1rem auto;
+   }
+   .left h1{
+    font-size: 1.5rem;
+   }
+   .left .price{
+    font-size: 1.2rem;
+   }
+   .left button{
+    width: 100%;
+    font-size: 1rem;
+   }
+   .right .year{
+    position: static;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+   }
+   .footer{
+    margin-top: 29%;
+   }
+}

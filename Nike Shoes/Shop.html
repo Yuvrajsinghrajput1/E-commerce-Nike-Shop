@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+     <header>
+    <div class="logo"> Nike <img src="/Css/Nike Shoes/logo.nike.jpg" class="img" alt=""></div>
+        <nav class="nav-bar">
+            <ul type="none">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./Shop.html">Shop</a></li>
+              <li><a href="./AddToCard.html">AddToCard</a></li>
+             <li><button class="login"><a href="./LogIn.html">Log In</a></button></li>
+            </ul>
+        </nav>
+     </header>
+     <h2>Men's Shoes & Sneakers</h2>
+      <input type="checkbox" id="toggleFilter"/>
+      <label for="toggleFilter">Filter</label>
+
+    <div id="filterContainer">
+       <div class="filter-category">
+        <input type="checkbox" id="filterName" class="toggle">
+        <label for="filterName">Shop Name</label>
+        <div class="filter-options">
+           <div><input type="checkbox" id="name1"/> <label for="name1">Nike Air</label></div>
+           <div><input type="checkbox" id="name2"/> <label for="name2">Nike Jordan Super</label></div>
+           <div><input type="checkbox" id="name3"/> <label for="name3">Nike Air Zoom</label></div>
+        </div>
+       </div>
+
+       <div class="filter-category">
+           <input type="checkbox" id="filterPrice" class="toggle"/>
+           <label for="filterPrice">Shoe Price</label>
+           <div class="filter-options">
+            <div><input type="checkbox" id="price1"/> <label for="price1">Under $50</label></div>
+             <div><input type="checkbox" id="price"/> <label for="price2">Under $100</label></div>
+             <div><input type="checkbox" id="price3"/> <label for="price3">Under $250</label></div>
+           </div>
+       </div>
+
+       <div class="filter-category">
+         <input type="checkbox" id="filter-Size" class="toggle"/>
+         <label for="filterSize">Shoe Size</label>
+         <div class="filter-options">
+         <div><input type="checkbox" id="size1"/> <label for="size1">Size 6</label></div>
+         <div><input type="checkbox" id="size2"/> <label for="size2">Size 7</label></div>
+         <div><input type="checkbox" id="size3"/> <label for="size3">Size 8</label></div>
+       </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="card">
+          <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/476771a5-d33d-4a13-a16b-804b1d650e67/AIR+JORDAN+1+RETRO+HIGH+OG.png" class="img1" alt="Nike Jordan">
+          <p>Air Jordan 12 Retro <br> "White and University Blue" <br> Men's Shoes <br> 1 Color</p>
+          <p>$50</p>
+          <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>
+          <button class="btn"><a href="./AddToCard.html">AddToCard</a></button>
+        </div>
+        <div class="card">
+          <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5dc8f34a-1669-4872-90b5-fb54f85e0bd0/AIR+JORDAN+1+LOW.png" class="img1" alt="Nike Jordan">
+          <p>Air Jordan 1 Retro High <br> OG "UNC Reimagied" <br> Men's Shoes 1 Color</p>
+          <p>$100</p>
+           <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>
+          <button class="btn"><a href="./AddToCard.html">AddToCard</a></button>
+        </div>
+        <div class="card">
+          <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/249a9f06-de0f-4bf1-8734-6217f7cca2a1/WMNS+AIR+JORDAN+1+RETRO+HI+OG.png" class="img1" alt="Nike Jordan">
+          <p>Nike Air Max DnB <br> Men's Shoes <br> 11 Color</p>
+          <p>$250</p>
+           <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>
+          <button class="btn"><a href="./AddToCard.html">AddToCard</a></button>
+        </div>
+        <div class="card">
+          <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e3d70c0a-794f-4483-aef9-3622c9eaa837/AIR+JORDAN+LEGACY+312+LOW.png" class="img1" alt="Nike Jordan">
+          <p>Nike x Hyperice <br> Hyerboot <br> Shoes 1 Color</p>
+          <p>$899</p>
+           <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>
+          <button class="btn"><a href="./AddToCard.html">AddToCard</a></button>
+        </div>
+        <div class="card">
+           <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7b6d87f1-4bfb-4a82-8f6f-84630181a287/AIR+JORDAN+1+LOW+SE.png" class="img1" alt="Nike Jordan">
+           <p>Nike Pegasus Premium <br> Men's Road Running <br> Shoes <br> 1 Color</p>
+           <p>$210</p>
+            <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>
+           <button class="btn"><a href="./AddToCard.html">AddToCard</a></button>
+        </div>
+        <div class="card">
+           <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c5ed4edb-6391-462b-b68c-787a14c3585f/AIR+JORDAN+1+LOW.png" class="img1" alt="Nike Jordan">
+           <p>Nike Vomero 18 <br> Men's Road Running <br> Shoes <br> 10 Colors</p>
+           <p>$150</p>
+              <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>  
+           <button class="btn"><a href="./AddToCard.html">AddToCard</a></button>
+        </div>
+        <div class="card">
+           <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a4fd7a49-3300-491c-b062-e2fb8d7094b2/JORDAN+ACCESS+%28GS%29.png" class="img1" alt="Nike Jordan">
+           <p>Nike Air DT Proto '92 <br> Men's Shoes <br> 1 Color</p>
+           <p>$150</p>
+            <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>
+           <button class="btn"><a href="./AddToCard.html">AddToCard</a></button>
+        </div>
+        <div class="card">
+           <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0b1450cb-c30a-4660-ab00-d30a4fea38f4/JORDAN+LUKA+4+PF.png" class="img1" alt="Nike Jordan">
+           <p>Air Jordan 4 Retro <br> Men's Shoes <br> 1 Color</p>
+           <p>$225</p>
+            <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>
+           <button class="btn"><a href="./AddToCard.html">AddToCard</a></button>
+        </div>
+        <div class="card">
+           <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/183930d6-ec63-471a-8413-b094dae0e330/AIR+JORDAN+1+RETRO+LOW+OG.png" class="img1" alt="Nike Jordan">
+           <p>Nike Air Foamposite One <br> Men's Shoes <br> 1 Color</p>
+           <p>$230</p>
+            <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>
+           <button class="btn"><a href="./AddToCard.html">AddToCard</a></button>
+        </div>
+        <div class="card">
+          <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d8bcafc0-a855-4b99-9e76-7c803212d41f/JORDAN+LUKA+.77+PF.png" class="img1" alt="Nike Jordan">
+          <p>Nike ReactX Rejuven8 <br> Men's Slides <br> 3 Color</p>
+          <p>$60</p>
+           <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          </div>
+          <button class="btn"><a href="./AddToCard.html">AddToCard</a></button>
+        </div>
+    </div>
+     <footer class="footer">
+        <div class="footer-section">
+         <h3>GIFT CARDS</h3>
+         <ul>
+          <li><a href="">Production</a></li>
+          <li><a href="">Find a store</a></li>
+           <li><a href="">Log In</a></li>
+            <li><a href="">Book a Member</a></li>
+             <li><a href="">Nike Shop</a></li>
+              <li><a href="">Send Us Feedback</a></li>
+         </ul>
+        </div>
+        <div class="footer-section">
+         <ul>
+          <h3>GET HELP</h3>
+           <li><a href="">Return</a></li>
+            <li><a href="">Shipping</a></li>
+             <li><a href="">Contact Us</a></li>
+              <li><a href="">Book a Member</a></li>
+               <li><a href="">Nike Shop</a></li>
+                <li><a href="">Send Us Feedback</a></li>
+         </ul>
+        </div>
+         <div class="footer-section">
+         <ul>
+          <h3>ABOUT NIKE</h3>
+          <li><a href="">News</a></li>
+          <li><a href="">Career</a></li>
+          <li><a href="">Log In</a></li>
+          <li><a href="">Book a Member</a></li>
+          <li><a href="">Nike  Shop</a></li>
+          <li><a href="">Send Us Feedback</a></li>
+         </ul>
+        </div>
+     </footer>
+</body>
+</html>
